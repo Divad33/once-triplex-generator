@@ -1,0 +1,10 @@
+{
+  "appId": "com.once.triplex",
+  "appName": "Triplex ONCE",
+  "webDir": "dist",
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": ["alert", "sound"]
+    }
+  }
+}

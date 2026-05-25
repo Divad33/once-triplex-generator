@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "476806563511",
+    "project_id": "pick3-smart-generator",
+    "storage_bucket": "pick3-smart-generator.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476806563511:android:4dddd59ba5977ccd73af32",
+        "android_client_info": {
+          "package_name": "com.once.triplex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOu8x4ZQYYK6T2eipS5asRZLsE2MDTni8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
