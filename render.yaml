@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: pick3-results-proxy
+    runtime: python
+    plan: free
+    rootDir: proxy
+    autoDeploy: true
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+      - key: FCM_TOKEN_FILE
+        value: /tmp/pick3-fcm-tokens.json
+      - key: PUSH_STATE_FILE
+        value: /tmp/pick3-push-state.json
+      - key: FIREBASE_PROJECT_ID
+        value: pick3-smart-generator
+      - key: FIREBASE_SERVICE_ACCOUNT_JSON
+        sync: false
+      - key: PUSH_ADMIN_TOKEN
+        sync: false
+      - key: LOTTERYUSA_ENABLED
+        value: "true"
+      - key: PUSH_POLL_SECONDS
+        value: "60"
+      - key: HOT_POLL_SECONDS
+        value: "30"

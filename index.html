@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#0b0f17" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <style>
+      html { background-color: hsl(220, 20%, 7%); }
+      html:not(.dark) { background-color: hsl(220, 20%, 97%); }
+    </style>
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('pick3_theme');
+          if (t !== 'light') {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+
+    <title>Triplex ONCE • Modo Inteligente</title>
+    <meta name="description" content="Triplex ONCE - Analiza y genera predicciones para el Triplex de la ONCE" />
+    <meta name="author" content="Triplex ONCE" />
+
+    <meta property="og:title" content="Triplex ONCE • Modo Inteligente" />
+    <meta property="og:description" content="Analiza el historial del Triplex de la ONCE y genera predicciones inteligentes" />
+    <meta property="og:type" content="website" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
