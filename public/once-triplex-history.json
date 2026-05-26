@@ -1,0 +1,432 @@
+[
+  {
+    "number": "372",
+    "date": "2026-01-02",
+    "period": "S1"
+  },
+  {
+    "number": "037",
+    "date": "2026-01-02",
+    "period": "S2"
+  },
+  {
+    "number": "909",
+    "date": "2026-01-03",
+    "period": "S1"
+  },
+  {
+    "number": "105",
+    "date": "2026-01-03",
+    "period": "S2"
+  },
+  {
+    "number": "558",
+    "date": "2026-01-05",
+    "period": "S1"
+  },
+  {
+    "number": "594",
+    "date": "2026-01-05",
+    "period": "S2"
+  },
+  {
+    "number": "151",
+    "date": "2026-01-06",
+    "period": "S1"
+  },
+  {
+    "number": "203",
+    "date": "2026-01-06",
+    "period": "S2"
+  },
+  {
+    "number": "427",
+    "date": "2026-01-07",
+    "period": "S1"
+  },
+  {
+    "number": "411",
+    "date": "2026-01-07",
+    "period": "S2"
+  },
+  {
+    "number": "544",
+    "date": "2026-01-09",
+    "period": "S1"
+  },
+  {
+    "number": "606",
+    "date": "2026-01-09",
+    "period": "S2"
+  },
+  {
+    "number": "428",
+    "date": "2026-01-10",
+    "period": "S1"
+  },
+  {
+    "number": "758",
+    "date": "2026-01-10",
+    "period": "S2"
+  },
+  {
+    "number": "776",
+    "date": "2026-01-12",
+    "period": "S1"
+  },
+  {
+    "number": "820",
+    "date": "2026-01-12",
+    "period": "S2"
+  },
+  {
+    "number": "699",
+    "date": "2026-01-13",
+    "period": "S1"
+  },
+  {
+    "number": "149",
+    "date": "2026-01-13",
+    "period": "S2"
+  },
+  {
+    "number": "712",
+    "date": "2026-01-14",
+    "period": "S1"
+  },
+  {
+    "number": "490",
+    "date": "2026-01-14",
+    "period": "S2"
+  },
+  {
+    "number": "996",
+    "date": "2026-01-16",
+    "period": "S1"
+  },
+  {
+    "number": "102",
+    "date": "2026-01-16",
+    "period": "S2"
+  },
+  {
+    "number": "824",
+    "date": "2026-01-17",
+    "period": "S1"
+  },
+  {
+    "number": "987",
+    "date": "2026-01-17",
+    "period": "S2"
+  },
+  {
+    "number": "329",
+    "date": "2026-01-19",
+    "period": "S1"
+  },
+  {
+    "number": "295",
+    "date": "2026-01-19",
+    "period": "S2"
+  },
+  {
+    "number": "354",
+    "date": "2026-01-20",
+    "period": "S1"
+  },
+  {
+    "number": "763",
+    "date": "2026-01-20",
+    "period": "S2"
+  },
+  {
+    "number": "861",
+    "date": "2026-01-21",
+    "period": "S1"
+  },
+  {
+    "number": "099",
+    "date": "2026-01-21",
+    "period": "S2"
+  },
+  {
+    "number": "372",
+    "date": "2026-01-23",
+    "period": "S1"
+  },
+  {
+    "number": "233",
+    "date": "2026-01-23",
+    "period": "S2"
+  },
+  {
+    "number": "205",
+    "date": "2026-01-24",
+    "period": "S1"
+  },
+  {
+    "number": "831",
+    "date": "2026-01-24",
+    "period": "S2"
+  },
+  {
+    "number": "823",
+    "date": "2026-01-26",
+    "period": "S1"
+  },
+  {
+    "number": "276",
+    "date": "2026-01-26",
+    "period": "S2"
+  },
+  {
+    "number": "615",
+    "date": "2026-01-27",
+    "period": "S1"
+  },
+  {
+    "number": "192",
+    "date": "2026-01-27",
+    "period": "S2"
+  },
+  {
+    "number": "420",
+    "date": "2026-01-28",
+    "period": "S1"
+  },
+  {
+    "number": "177",
+    "date": "2026-01-28",
+    "period": "S2"
+  },
+  {
+    "number": "141",
+    "date": "2026-01-30",
+    "period": "S1"
+  },
+  {
+    "number": "603",
+    "date": "2026-01-30",
+    "period": "S2"
+  },
+  {
+    "number": "955",
+    "date": "2026-01-31",
+    "period": "S1"
+  },
+  {
+    "number": "528",
+    "date": "2026-01-31",
+    "period": "S2"
+  },
+  {
+    "number": "481",
+    "date": "2026-03-31",
+    "period": "S1"
+  },
+  {
+    "number": "307",
+    "date": "2026-05-03",
+    "period": "S1"
+  },
+  {
+    "number": "646",
+    "date": "2026-05-03",
+    "period": "S2"
+  },
+  {
+    "number": "472",
+    "date": "2026-05-03",
+    "period": "S3"
+  },
+  {
+    "number": "297",
+    "date": "2026-05-03",
+    "period": "S4"
+  },
+  {
+    "number": "761",
+    "date": "2026-05-03",
+    "period": "S5"
+  },
+  {
+    "number": "129",
+    "date": "2026-05-04",
+    "period": "S1"
+  },
+  {
+    "number": "324",
+    "date": "2026-05-04",
+    "period": "S2"
+  },
+  {
+    "number": "590",
+    "date": "2026-05-04",
+    "period": "S3"
+  },
+  {
+    "number": "334",
+    "date": "2026-05-04",
+    "period": "S4"
+  },
+  {
+    "number": "451",
+    "date": "2026-05-04",
+    "period": "S5"
+  },
+  {
+    "number": "942",
+    "date": "2026-05-05",
+    "period": "S1"
+  },
+  {
+    "number": "161",
+    "date": "2026-05-05",
+    "period": "S2"
+  },
+  {
+    "number": "975",
+    "date": "2026-05-05",
+    "period": "S3"
+  },
+  {
+    "number": "947",
+    "date": "2026-05-05",
+    "period": "S4"
+  },
+  {
+    "number": "640",
+    "date": "2026-05-05",
+    "period": "S5"
+  },
+  {
+    "number": "593",
+    "date": "2026-05-07",
+    "period": "S1"
+  },
+  {
+    "number": "703",
+    "date": "2026-05-07",
+    "period": "S2"
+  },
+  {
+    "number": "752",
+    "date": "2026-05-07",
+    "period": "S3"
+  },
+  {
+    "number": "666",
+    "date": "2026-05-07",
+    "period": "S4"
+  },
+  {
+    "number": "592",
+    "date": "2026-05-07",
+    "period": "S5"
+  },
+  {
+    "number": "830",
+    "date": "2026-05-08",
+    "period": "S1"
+  },
+  {
+    "number": "996",
+    "date": "2026-05-08",
+    "period": "S2"
+  },
+  {
+    "number": "287",
+    "date": "2026-05-08",
+    "period": "S3"
+  },
+  {
+    "number": "988",
+    "date": "2026-05-08",
+    "period": "S4"
+  },
+  {
+    "number": "744",
+    "date": "2026-05-08",
+    "period": "S5"
+  },
+  {
+    "number": "085",
+    "date": "2026-05-10",
+    "period": "S1"
+  },
+  {
+    "number": "315",
+    "date": "2026-05-10",
+    "period": "S2"
+  },
+  {
+    "number": "939",
+    "date": "2026-05-10",
+    "period": "S3"
+  },
+  {
+    "number": "279",
+    "date": "2026-05-10",
+    "period": "S4"
+  },
+  {
+    "number": "831",
+    "date": "2026-05-10",
+    "period": "S5"
+  },
+  {
+    "number": "212",
+    "date": "2026-05-11",
+    "period": "S1"
+  },
+  {
+    "number": "009",
+    "date": "2026-05-11",
+    "period": "S2"
+  },
+  {
+    "number": "999",
+    "date": "2026-05-11",
+    "period": "S3"
+  },
+  {
+    "number": "624",
+    "date": "2026-05-11",
+    "period": "S4"
+  },
+  {
+    "number": "865",
+    "date": "2026-05-11",
+    "period": "S5"
+  },
+  {
+    "number": "866",
+    "date": "2026-05-12",
+    "period": "S1"
+  },
+  {
+    "number": "277",
+    "date": "2026-05-12",
+    "period": "S2"
+  },
+  {
+    "number": "836",
+    "date": "2026-05-12",
+    "period": "S3"
+  },
+  {
+    "number": "743",
+    "date": "2026-05-12",
+    "period": "S4"
+  },
+  {
+    "number": "669",
+    "date": "2026-05-12",
+    "period": "S5"
+  },
+  {
+    "number": "778",
+    "date": "2026-05-14",
+    "period": "S1"
+  }
+]
