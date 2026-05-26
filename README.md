@@ -1,8 +1,15 @@
-# Welcome to your Lovable project
+# Triplex ONCE - Análisis y Predicciones
 
-## Project info
+App de análisis estadístico y generación de números para el **Triplex de la ONCE** (Pick 3 español).
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Características
+
+- Motor de análisis estadístico: frecuencia, dígitos calientes/fríos, pares terminales
+- Pronóstico basado en matrices de transición (Markov)
+- Generador inteligente de números
+- 5 sorteos diarios (S1-S5): 10:00, 12:00, 14:00, 17:00, 21:15
+- Notificaciones para cada sorteo
+- App Android: `com.once.triplex`
 
 ## How can I edit this code?
 
