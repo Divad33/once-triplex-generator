@@ -20,7 +20,7 @@ function toOnceLatestResult(draw: { id: string | number; date: string; number: s
     gameName: 'Triplex',
     number: draw.number,
     sorteo: parseSorteo(draw.period),
-    drawDate: ${draw.date}T00:00:00.000Z,
+    drawDate: draw.date + 'T00:00:00.000Z',
   };
 }
 
