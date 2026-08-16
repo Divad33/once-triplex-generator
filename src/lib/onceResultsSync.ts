@@ -1,4 +1,3 @@
-import { fetchLatestTriplexDraws, type TriplexDraw } from '@/lib/onceTriplex';
 import { addResults, getAllResults, type DrawResult } from '@/lib/resultsDb';
 
 export interface OnceSyncResult {
@@ -16,14 +15,6 @@ interface BundledOnceResult {
   period: string;
 }
 
-const SORTEO_PERIOD: Record<number, string> = {
-  1: 'S1',
-  2: 'S2',
-  3: 'S3',
-  4: 'S4',
-  5: 'S5',
-};
-
 export async function syncOnceResults(loadBundledIfEmpty = true): Promise<OnceSyncResult> {
   let addedBundled = 0;
   let addedLatest = 0;
@@ -36,18 +27,16 @@ export async function syncOnceResults(loadBundledIfEmpty = true): Promise<OnceSy
       const bundled = await fetchBundledHistory();
       addedBundled = addResults(bundled).length;
     } catch (bundledError) {
-      errors.push(formatSyncError(bundledError, 'No se pudo cargar la base local incluida'));
+      errors.push(
+        bundledError instanceof Error ? bundledError.message : 'Error cargando base local'
+      );
     }
   }
 
-  try {
-    const latestDraws = await fetchLatestTriplexDraws();
-    const latestResults = latestDraws.map(drawToResult);
-    latestDraw = latestResults[0];
-    addedLatest = addResults(latestResults).length;
-    latestOnline = latestDraws.length > 0;
-  } catch (syncError) {
-    errors.push(formatSyncError(syncError, 'No se pudo conectar con ONCE'));
+  const all = getAllResults();
+  if (all.length > 0) {
+    latestDraw = { number: all[0].number, date: all[0].date, period: all[0].period };
+    latestOnline = true;
   }
 
   return {
@@ -65,23 +54,10 @@ async function fetchBundledHistory(): Promise<Omit<DrawResult, 'id'>[]> {
   if (!response.ok) {
     throw new Error('Unable to load bundled ONCE Triplex history');
   }
-
   const data = (await response.json()) as BundledOnceResult[];
   return data.map((result) => ({
     number: result.number,
     date: result.date,
     period: result.period,
   }));
-}
-
-function drawToResult(draw: TriplexDraw): Omit<DrawResult, 'id'> {
-  return {
-    number: draw.number,
-    date: draw.drawDate.slice(0, 10),
-    period: SORTEO_PERIOD[draw.sorteo] || `S${draw.sorteo}`,
-  };
-}
-
-function formatSyncError(error: unknown, fallback: string): string {
-  return error instanceof Error ? error.message : fallback;
 }
