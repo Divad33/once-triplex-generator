@@ -42,5 +42,5 @@ async function fetchBundledHistory(): Promise<Omit<DrawResult, "id">[]> {
 }
 
 function drawToResult(draw: TriplexDraw): Omit<DrawResult, "id"> {
-  return { number: draw.number, date: draw.drawDate.slice(0, 10), period: SORTEO_PERIOD[draw.sorteo] || S${draw.sorteo} };
+  return { number: draw.number, date: draw.drawDate.slice(0, 10), period: SORTEO_PERIOD[draw.sorteo] || "S" + draw.sorteo };
 }
