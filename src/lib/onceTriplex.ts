@@ -1,4 +1,4 @@
-const PROXY_API_URL = 'https://pick3-results-proxy.onrender.com/once/latest';
+const PROXY_API_URL = 'https://once-triplex-proxy.onrender.com/once/latest';
 const API_TIMEOUT_MS = 10000;
 
 export interface TriplexDraw {
